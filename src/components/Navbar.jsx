@@ -10,7 +10,7 @@ const Navbar = () => {
     }
     
   return (
-    <div className='absolute w-full flex justify-between items-center  p-4 md:p-10'>
+    <div className='absolute  w-full flex justify-between items-center  p-4 md:p-10'>
       <h1 className='text-white font-bold text-2xl font-mono z-20 '>Adubi Trips</h1>
 
        {nav ?<MdOutlineClose className='z-20 text-white  cursor-pointer ' size={25}  onClick={navHandler}/> :<HiOutlineMenuAlt3 onClick={navHandler} className='z-20 text-white  cursor-pointer'  size={25}/>}
